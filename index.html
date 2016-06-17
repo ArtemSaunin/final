@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Exam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> 
+    <link rel="stylesheet" href="build/css/reset.css">
+    <link rel="stylesheet" href="build/css/style.css">
+    <script src="build/js/jquery.jcarousel-core.min.js"></script>
+    <script src="build/js/jquery.jcarousel-control.min.js"></script>
+    <script src="build/js/jquery.jcarousel-pagination.min.js"></script>
+    <script src="build/js/jquery.jcarousel-autoscroll.min.js"></script>   
+    <script src="build/js/classList.min.js"></script>
+    <script src="build/js/script.js"></script>
+    <!--[if gte IE 8]><link href="build/css/style_ie8.css" rel="stylesheet"/>
+        <script>
+          document.createElement('header');
+          document.createElement('main');
+          document.createElement('section');
+          document.createElement('footer');
+        </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__wrapper">
+            <div class="header__links-pos">
+                <a class="header__link-log-in" href="#">Log in</a>
+                <div class="header__text-sign-up">
+                    <a class="header__link-sign-up" href="#">Sign up</a>
+                </div>
+            </div>
+            <p class="header__title-top">URLAUBSGLÜCK</p>
+            <p class="header__title-central-1 header__title-central-1--modified">Share your</p>
+            <p class="header__title-central-2 header__title-central-2--modified">holiday dreams</p>
+            <p class="header__title-bottom"><span class="header__title-bottom-first">And find the perfect partner </span><span class="header__title-bottom-second">to fullfill it</span></p>
+            <button class="header__button">Find your holiday partner</button>
+        </div>
+        </header>
+        <!-- END OF HEADER -->
+        <!-- SLIDER -->
+        <section class="slider">
+            <p class="slider__header">How Urlaubsglück works?</p>
+            <div class="slider__box">
+                <div class="slider__box-position">
+                    <img class="slider__image" src="build/img/image1_mobile.jpg" alt="">
+                    <div class="slider__box-context">
+                        <button class="slider__box-context-button">STEP 1</button>
+                        <p class="slider__box-context-header-first">Sed leo enim,</p>
+                        <p class="slider__box-context-header-second">condimentum</p>
+                        <p class="slider__box-context-text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+                <div class="slider__box-position">
+                    <img class="slider__image" src="build/img/image2_mobile.jpg" alt="">
+                    <div class="slider__box-context2">
+                        <button class="slider__box-context-button">STEP 2</button>
+                        <p class="slider__box-context-header-first">Morbi velit risus</p>
+                        <p class="slider__box-context-text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                    </div>
+                </div>
+                <div class="slider__box-position">
+                    <img class="slider__image" src="build/img/image3_mobile.jpg" alt="">
+                    <div class="slider__box-context">
+                        <button class="slider__box-context-button">STEP 3</button>
+                        <p class="slider__box-context-header-first">Sed leo enim,</p>
+                        <p class="slider__box-context-header-second">condimentum</p>
+                        <p class="slider__box-context-text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="jcarousel-wrapper-position">
+                <div class="jcarousel-wrapper" id="jcarousel1">
+                    <div class="jcarousel1">
+                        <ul>
+                            <li><img src="build/img/slider_1_image1.jpg"></li>
+                            <li><img src="build/img/slider_1_image2.jpg"></li>
+                            <li><img src="build/img/slider_1_image3.jpg"></li>
+                        </ul>
+                        <div class="slider__box-context">
+                            <button class="slider__box-context-button">STEP 1</button>
+                            <p class="slider__box-context-header-first">Sed leo enim,</p>
+                            <p class="slider__box-context-header-second">condimentum</p>
+                            <p class="slider__box-context-text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                        </div>
+                    </div>
+                    <a class="jcarousel-prev1"></a>
+                    <a class="jcarousel-next1"></a>
+                </div>
+                <div class="jcarousel-wrapper">
+                    <div class="jcarousel2">
+                        <ul>
+                            <li><img src="build/img/slider_2_image1.jpg"></li>
+                            <li><img src="build/img/slider_2_image2.jpg"></li>
+                            <li><img src="build/img/slider_2_image3.jpg"></li>
+                        </ul>
+                        <div class="slider__box-context2">
+                            <button class="slider__box-context-button">STEP 2</button>
+                            <p class="slider__box-context-header-first">Morbi velit risus</p>
+                            <p class="slider__box-context-text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                        </div>  
+                    </div>
+                    <a class="jcarousel-prev2" id="carousel-prev2"></a>
+                    <a class="jcarousel-next2" id="carousel-next2"></a>
+                </div>
+                <div class="jcarousel-wrapper jcarousel-wrapper--last">
+                    <div class="jcarousel3">
+                        <ul>
+                            <li><img src="build/img/slider_3_image1.jpg"></li>
+                            <li><img src="build/img/slider_3_image2.jpg"></li>
+                            <li><img src="build/img/slider_3_image3.jpg"></li>
+                        </ul>
+                        <div class="slider__box-context">
+                            <button class="slider__box-context-button">STEP 3</button>
+                            <p class="slider__box-context-header-first">Sed leo enim,</p>
+                            <p class="slider__box-context-header-second">condimentum</p>
+                            <p class="slider__box-context-text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                        </div>
+                    <a class="jcarousel-prev3" id="carousel-prev3"></a>
+                    <a class="jcarousel-next3" id="carousel-next3"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF SLIDER -->
+    <!-- BLOCK PARTNER -->
+    <section class="partners">
+        <div class="partners__header">
+            <span class="partners__header-first">Meet a partner for your</span>
+            <span class="partners__header-second">best holiday</span>
+        </div>
+        <div class="partners__boxes-position">
+            <div class="partners__first-box">
+                <div class="partners__image-box" id="partners__image-box-1">
+                    <div class="partners__image-box-avatar-position">
+                        <img src="build/img/partners_image_box_avatar_1.png" alt="" class="partners__image-box-avatar">
+                        <img src="build/img/partners_image_box_sign_1.png" alt="" class="partners__image-box-sign">               
+                    </div>
+                    <p class="partners__image-box-name">Bradley Hunter</p>
+                    <p class="partners__image-box-description">Based in Chicago. I love playing tennis and loud music.</p>
+                </div>
+                <div class="partners__image-box" id="partners__image-box-2">
+                    <div class="partners__image-box-avatar-position">
+                        <img src="build/img/partners_image_box_avatar_3.png" alt="" class="partners__image-box-avatar">
+                        <img src="build/img/partners_image_box_sign_3.png" alt="" class="partners__image-box-sign">               
+                    </div>
+                    <p class="partners__image-box-name">Heather Walker</p>
+                    <p class="partners__image-box-description">I'm a happy person that loves cats and climbing on mountains.</p>
+                </div>
+            </div>
+            <div class="partners__second-box">
+                <div class="partners__image-box" id="partners__image-box-3">
+                    <div class="partners__image-box-avatar-position">
+                        <img src="build/img/partners_image_box_avatar_2.png" alt="" class="partners__image-box-avatar">
+                        <img src="build/img/partners_image_box_sign_2.png" alt="" class="partners__image-box-sign">               
+                    </div>
+                    <p class="partners__image-box-name">Lucas Marsha</p>
+                    <p class="partners__image-box-description">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+                </div>
+                <div class="partners__image-box" id="partners__image-box-4">
+                    <div class="partners__image-box-avatar-position">
+                        <img src="build/img/partners_image_box_avatar_4.png" alt="" class="partners__image-box-avatar">
+                        <img src="build/img/partners_image_box_sign_4.png" alt="" class="partners__image-box-sign">               
+                    </div>
+                    <p class="partners__image-box-name">Bradley Hunter</p>
+                    <p class="partners__image-box-description">Based in Chicago. I love playing tennis and loud music.</p>
+                </div>
+            </div>
+        </div>
+        <div class="partners__button-position">
+            <button class="partners__button">See other partners</button>
+        </div>
+    </section>
+    <!-- END BLOCK PARTNER -->
+    <!-- DISCOVER BLOCK -->
+    <main class="discover">
+        <div class="discover__header">
+            <span class="discover__header-first-part">Discover holiday activity</span>
+            <span class="discover__header-second-part">ideas</span>
+        </div>
+        <div class="out-results" id="out-results"></div>
+        <div class="discover__boxes">
+            <div class="discover__box" id="discover__box-id-1"><p class="discover__box-text" id="discover__box-text1">Sport and Activity</p></div>
+            <div class="discover__box" id="discover__box-id-2"><p class="discover__box-text" id="discover__box-text2">Wellnes and Health</p></div>
+            <div class="discover__box" id="discover__box-id-3"><p class="discover__box-text" id="discover__box-text3">Extreme Sports <br>and Expeditions</p></div>
+            <div class="discover__box" id="discover__box-id-4"><p class="discover__box-text" id="discover__box-text4">Games</p></div>
+            <div class="discover__box" id="discover__box-id-5"><p class="discover__box-text" id="discover__box-text5">Culture and Education</p></div>
+            <div class="discover__box" id="discover__box-id-6"><p class="discover__box-text" id="discover__box-text6">Relaxation</p></div>
+            <div class="discover__box" id="discover__box-id-7"><p class="discover__box-text" id="discover__box-text7">Travelling</p></div>
+        </div>
+        <div class="discover__header" id="discover__header2">
+            <span class="discover__header-first-part">Discover holiday activity</span>
+            <span class="discover__header-second-part">ideas</span>
+        </div>
+        <form class="search-form">
+            <p class="search-form__header">Hi! What are your holiday interests?</p>
+            <div>
+                <input type="search" class="search-form__input" id="entered-query" placeholder="Enter your interests">
+            <input type="submit" class="search-form__submit" value="Search partners">
+            </div>
+        </form>
+    </main>
+    <!-- END DISCOVER BLOCK -->
+    <!-- FOOTER-->
+    <footer class="footer">
+        <div class="footer__wrapper">
+        <div class="footer__header">
+            <p class="footer__header-text">URLAUBSGLÜCK</p>
+        </div>
+        <div class="footer__company">
+            <p class="footer__company-text"><a class="footer__company-link" href="#">Company</a></p>
+            <ul class="footer__company-menu">
+                <li class="footer__company-menu-item">
+                    <a href="" class="footer__company-menu-link">About</a>
+                </li>
+                <li class="footer__company-menu-item">
+                    <a href="" class="footer__company-menu-link">Contacts</a>
+                </li>
+                <li class="footer__company-menu-item">
+                    <a href="" class="footer__company-menu-link">Press</a>
+                </li>
+                <li class="footer__company-menu-item">
+                    <a href="" class="footer__company-menu-link">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__partners">
+            <p class="footer__partners-text"><a class="footer__partners-link" href="#">Partners</a></p>
+        </div>
+        <div class="footer__designed">
+            <p class="footer__designed-text"><a href="#" class="footer__designed-link">DESIGNED BY</a></p>
+            <a href="#" class="footer__designed-link"><img class="footer__designed-image" src="build/img/footer_designed_logo.png" alt=""></a>
+        </div>
+        </div>
+    </footer>
+    </div> <!-- END OF WRAPPER -->  
+</body>
+</html>
